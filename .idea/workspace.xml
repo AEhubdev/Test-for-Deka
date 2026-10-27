@@ -5,13 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28e48c6c-73db-45b9-b9a4-7d55d00c9401" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PythonProject81.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/final_project/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/final_project/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/engines/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/engines/data_engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/engines/tema_strategy_engine.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/logic/trading_strategy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/styles.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project" beforeDir="false" afterPath="$PROJECT_DIR$/final_project" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/src/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/src/engines/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/src/engines/data_engine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/src/engines/tema_strategy_engine.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/src/logic/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/src/logic/trading_strategy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/src/ui/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/final_project/src/ui/styles.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

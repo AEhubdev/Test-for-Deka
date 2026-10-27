@@ -1,0 +1,43 @@
+from typing import Dict, Final
+CHART_MARKER_OFFSET = 0.02
+
+ASSET_MAPPING: Final[Dict[str, str]] = {
+    "Gold (GC=F)": "GC=F",
+    "S&P 500 (^GSPC)": "^GSPC",
+    "Bitcoin (BTC-USD)": "BTC-USD",
+    "Deka Fond (0P0000YYTL.F)": "0P0000YYTL.F"
+}
+
+DEFAULT_SYMBOL: Final[str] = "GC=F"
+DEFAULT_DATA_INTERVAL: Final[str] = "1d"
+
+DATE_FORMAT = '%Y-%m-%d %H:%M'
+
+class IndicatorSettings:
+
+    RSI_PERIOD: int = 14
+    RSI_OVERBOUGHT_LEVEL: int = 70
+    RSI_OVERSOLD_LEVEL: int = 30
+    RSI_BULLISH_THRESHOLD: int = 55
+    RSI_BEARISH_THRESHOLD: int = 45
+
+    BOLLINGER_BANDS_PERIOD: int = 20
+    BOLLINGER_BANDS_STANDARD_DEVIATIONS: int = 2
+
+    MOVING_AVERAGE_SHORT_TERM: int = 20
+    MOVING_AVERAGE_LONG_TERM: int = 50
+
+
+
+class LayoutSettings:
+    MAIN_CHART_HEIGHT: int = 500
+    INDICATOR_CHART_HEIGHT: int = 150
+
+
+AVAILABLE_TIMEFRAMES: Final[Dict[str, str]] = {
+    "15 Minutes": "15m",
+    "1 Hour": "1h",
+    "1 Day": "1d",
+    "1 Week": "1wk",
+    "1 Month": "1mo",
+}
